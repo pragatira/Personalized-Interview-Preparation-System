@@ -6,11 +6,27 @@ Instead of following a one-size-fits-all approach, the platform analyzes a stude
 
 ---
 
+## 🏗️ System Architecture
+
+The following diagram illustrates the high-level architecture of the Personalized Interview Preparation System, including the student application, recruiter dashboard, AI services, backend components, and data storage.
+
+![System Architecture](system_architecture.png)
+
+---
+
+## 🤖 AI Agent Workflow
+
+The platform uses multiple AI agents that collaborate to analyze resumes, identify skill gaps, generate personalized interview questions, evaluate candidate responses, and provide recruiter insights.
+
+![AI Agent Workflow](agent_pipeline.png)
+
+---
+
 ## ✨ Key Features
 
 - 📄 AI-powered Resume Analysis
 - 📊 ATS Resume Scoring
-- 🤖 Mock Technical & HR Interviews
+- 🤖 AI Mock Technical & HR Interviews
 - 🎤 Voice-based Interview Practice
 - 💻 Coding Practice (DSA)
 - 📚 Personalized Learning Roadmap
@@ -65,9 +81,7 @@ backend/
 
 ## 🎯 Project Goal
 
-The goal of this project is to help students prepare for placements more effectively by providing personalized guidance instead of generic practice questions.
-
-The platform identifies skill gaps, recommends what to learn next, conducts AI-powered mock interviews, evaluates resumes, and continuously tracks improvement to help users build confidence for real interviews.
+The goal of this project is to help students prepare for placements through an AI-powered, personalized learning experience. The platform identifies skill gaps, evaluates resumes, conducts mock interviews, recommends learning paths, and tracks user progress to improve interview readiness.
 
 ---
 
@@ -75,16 +89,16 @@ The platform identifies skill gaps, recommends what to learn next, conducts AI-p
 
 This project is currently under active development.
 
-The first version will include:
+### Planned Modules
 
-- Resume Analyzer
-- AI Mock Interview
-- Coding Practice
-- Personalized Learning Roadmap
-- Progress Dashboard
-- Company-wise Interview Preparation
-
-More features will be added as the project evolves.
+- ✅ Resume Analyzer
+- ✅ ATS Resume Scoring
+- 🔄 AI Mock Interview
+- 🔄 Coding Practice
+- 🔄 Personalized Learning Roadmap
+- 🔄 Progress Dashboard
+- 🔄 Company-wise Interview Preparation
+- 🔄 Recruiter Analytics Dashboard
 
 ---
 
@@ -93,18 +107,14 @@ More features will be added as the project evolves.
 - AI Career Mentor
 - Video Interview Analysis
 - Emotion & Confidence Detection
+- Personalized Learning Analytics
 - Recruiter Dashboard
 - Team Interview Simulation
-- Placement Analytics
+- Placement Prediction
+- Mobile Application
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, ideas, and suggestions are always welcome. Feel free to fork this repository, create an issue, or submit a pull request.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
+Contributions, ideas, and suggestions are welcome. Feel free to fork this repository, open an issue, or submit a pull request.
